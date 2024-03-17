@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/editorScreen">
+
+    <fragment
+        android:id="@+id/editorScreen"
+        android:name="com.example.photoeditor.presenter.screen.EditorScreen"
+        android:label="EditorScreen"
+        tools:layout="@layout/screen_editor" />
+
+</navigation>
