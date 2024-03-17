@@ -136,7 +136,7 @@ class EditorScreen : Fragment(R.layout.screen_editor) {
     }
 
 
-    fun saveImageToGallery() {
+    private fun saveImageToGallery() {
         val context: Context = requireContext()
         val frameLayout = binding.container
         val bitmap =
